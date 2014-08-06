@@ -22,7 +22,7 @@ load this scripts
 ```html
 
 <!-- load this script -->
-<script src="./GaTrackingAtagEvent.min.js"></script>
+<script src="GaTrackingAtagEvent.min.js"></script>
 
 ```
 
