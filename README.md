@@ -2,11 +2,11 @@
 
 [![Build Status](https://travis-ci.org/kashiro/GaTrackingAtagEvent.png?branch=master)](https://travis-ci.org/kashiro/GaTrackingAtagEvent)
 
-Utility Class of tracking  a tag click events by using Google Analyitcs
+Utility Class of tracking  `<a></a>` tag click events by using Google Analyitcs
 
 ## Outline
 
-Utility Class of tracking  a tag click events by using Google Analyitcs
+Utility Class of tracking `<a></a>` tag click events by using Google Analyitcs
 
 
 ## Install via bower
@@ -22,11 +22,11 @@ load this scripts
 ```html
 
 <!-- load this script -->
-<script src="GaTrackingAtagEvent.min.js"></script>
+<script src="bower_components/GaTrackingAtagEvent/dist/GaTrackingAtagEvent.min.js"></script>
 
 ```
 
-add attribute (data-ga-label) in a tag which you want to tracking click event by google analytics.
+add attribute (data-ga-label) in `<a></a>` tag which you want to tracking click event by google analytics.
 
 ```html
 
@@ -37,6 +37,13 @@ add attribute (data-ga-label) in a tag which you want to tracking click event by
 <!-- do not tracking click event of this a tag -->
 <a href="/page3">
 ```
+
+## Demo
+
+* [normal](http://kashiro.github.io/GaTrackingAtagEvent/sample/index.html)]
+* [debug](http://kashiro.github.io/GaTrackingAtagEvent/sample/debug.html)]
+
+If you want to check the value which you send to google analyitcs you have to install [google analytics debugger in chrome](https://chrome.google.com/webstore/detail/google-analytics-debugger/jnkmfdileelhofjcijamephohjechhna)
 
 ## Notice
 

@@ -5,13 +5,9 @@
  *
  * @example
  *
- *    var gaTrackingAtagEvent = new GaTrackingAtagEvent();
- *
- *    // degug
- *    //var gaTrackingAtagEvent = new GaTrackingAtagEvent({
- *	  //    isdebug: true
- *    //});
- *
+ *    var gaTrackingAtagEvent = new GaTrackingAtagEvent({
+ *	      debug: false
+ *    });
  *    gaTrackingAtagEvent.subscribe();
  *
  * @version 0.1.0
@@ -65,6 +61,7 @@
             var $atag = $(event.currentTarget),
                 option = this._getParam($atag, this.opt);
             this._tracking(option);
+			return false;
         },
 
         _getParam: function($atag, opt) {
@@ -74,7 +71,7 @@
             return opt;
         },
 
-        _tarcking: function(option) {
+        _tracking: function(option) {
             ga('send', 'event', {
                 'eventCategory': option.category,
                 'eventAction': option.action,
