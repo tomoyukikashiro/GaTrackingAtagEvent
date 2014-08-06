@@ -36,7 +36,7 @@ add attribute (data-ga-label) in a tag which you want to tracking click event by
 <a href="/item" data-ga-label="itempage">
 <!-- do not tracking click event of this a tag -->
 <a href="/page3">
-``
+```
 
 ## Notice
 
