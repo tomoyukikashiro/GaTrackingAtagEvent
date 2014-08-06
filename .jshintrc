@@ -1,0 +1,22 @@
+{
+  "strict": true,
+  "indent": 2,
+  "maxlen": 100,
+  "unused": true,
+  "undef": true,
+  "browser": true,
+  "devel": true,
+  "debug": true,
+  "globals": {
+    "twttr"      : true,
+    "xit"        : true,
+    "sinon"      : true,
+    "expect"     : true,
+    "it"         : true,
+    "beforeEach" : true,
+    "GaTrackingTwEvent": true,
+    "describe"   : true,
+    "ga"         : true,
+    "$"         : true
+  }
+}

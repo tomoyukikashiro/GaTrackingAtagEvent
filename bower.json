@@ -1,0 +1,27 @@
+{
+  "name": "GaTrackingAtagEvent",
+  "version": "0.0.1",
+  "homepage": "https://github.com/kashiro/GaTrackingAtagEvent",
+  "authors": [
+    "Tomoyuki Kashiro <ksrtmyk@gmail.com>"
+  ],
+  "description": "Utility Class of tracking atag click events by using Google Analyitcs",
+  "main": "dist/GaTrackingAtagEvent.js",
+  "keywords": [
+    "googleanalytics"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "karma.conf.js",
+    "resources",
+    "src",
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "*"
+  }
+}

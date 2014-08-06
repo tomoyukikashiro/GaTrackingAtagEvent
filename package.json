@@ -1,0 +1,22 @@
+{
+  "author": "tomoyuki.kashiro",
+  "name": "GaTrackingAtagEvent",
+  "version": "0.0.1",
+  "engines": {
+    "node": "~0.11"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.0",
+    "grunt-contrib-uglify": "*",
+    "grunt-contrib-concat": "*",
+    "grunt-contrib-jshint": "*",
+    "grunt-karma": "*",
+    "karma-phantomjs-launcher": "~0.1.1",
+    "karma": "*",
+    "mocha": "~1.13.0",
+    "karma-mocha": "~0.1.0"
+  },
+  "scripts": {
+    "test": "node_modules/karma/bin/karma start karma.conf.js --no-auto-watch --single-run --browsers PhantomJS"
+  }
+}
