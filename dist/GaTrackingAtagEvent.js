@@ -90,7 +90,7 @@
                 }
             } else {
                 if (option.isBlank) {
-                    window.open(href);
+                    window.open(href, 'GaTrackingAtagEvent');
                 } else {
                     location.assign(href);
                 }
