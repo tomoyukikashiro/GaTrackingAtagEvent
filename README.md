@@ -40,10 +40,12 @@ add attribute (data-ga-label) in `<a></a>` tag which you want to tracking click 
 
 ## Demo
 
-* [normal](http://kashiro.github.io/GaTrackingAtagEvent/sample/index.html)]
-* [debug](http://kashiro.github.io/GaTrackingAtagEvent/sample/debug.html)]
+* [normal](http://kashiro.github.io/GaTrackingAtagEvent/sample/index.html)
+* [debug](http://kashiro.github.io/GaTrackingAtagEvent/sample/debug.html)
 
 If you want to check the value which you send to google analyitcs you have to install [google analytics debugger in chrome](https://chrome.google.com/webstore/detail/google-analytics-debugger/jnkmfdileelhofjcijamephohjechhna)
+
+![Google Analytics Screenshot](https://raw.github.com/kashiro/GaTrackingAtagEvent/master/resources/screenshot.png)
 
 ## Notice
 

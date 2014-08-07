@@ -97,7 +97,7 @@ describe('Spec of GaTrackingAtagEvent', function () {
 			});
 		it('call console.log if you set debug option', function() {
 			inst._onCallback(option);
-			expect(spyLog.args[0][0]).to.eql('open new window : ' + option.href);
+			expect(spyLog.args[0][0]).to.eql('do nothing : ' + option.href);
 
 			option.isBlank = false;
 			inst._onCallback(option);
@@ -107,7 +107,7 @@ describe('Spec of GaTrackingAtagEvent', function () {
 			option.isDebug = false;
 			option.isBlank = true;
 			inst._onCallback(option);
-			expect(spyOpen.args[0][0]).to.eql(option.href);
+			expect(spyOpen.called).to.not.be.ok();
 
 			option.isBlank = false;
 			inst._onCallback(option);
