@@ -14,7 +14,7 @@
     "expect"     : true,
     "it"         : true,
     "beforeEach" : true,
-    "GaTrackingTwEvent": true,
+    "GaTrackingAtagEvent": true,
     "describe"   : true,
     "ga"         : true,
     "$"         : true

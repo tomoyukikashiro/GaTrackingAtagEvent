@@ -61,7 +61,9 @@
             var $atag = $(event.currentTarget),
                 option = this._getParam($atag, this.opt);
             this._tracking(option);
-			return false;
+			if(!option.isBlank){
+				return false;
+			}
         },
 
         _getParam: function($atag, opt) {
@@ -84,13 +86,13 @@
             var href = option.href;
             if (option.isDebug) {
                 if (option.isBlank) {
-                    console.log('open new window : ' + href);
+                    console.log('do nothing : ' + href);
                 } else {
                     console.log('open : ' + href);
                 }
             } else {
                 if (option.isBlank) {
-                    window.open(href, 'GaTrackingAtagEvent');
+					// do nothing
                 } else {
                     location.assign(href);
                 }
